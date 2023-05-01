@@ -98,7 +98,6 @@ class VentanaPrincipal(QMainWindow):
         stats.addWidget(self.entrada_Spd,5,1)
 
         self.setCentralWidget(contendor_principal)
-        print(self.entrada_tipo.currentText())
 
 
 if __name__ == "__main__":
